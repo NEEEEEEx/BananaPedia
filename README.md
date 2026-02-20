@@ -3,16 +3,16 @@
 A React Native application demonstrating state management and API integration.
 ## Screenshots
 Loading State
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/eed7e068-c4c0-4835-80e6-f1f2b45b43bb" />
+<img width="108" height="234" alt="image" src="https://github.com/user-attachments/assets/eed7e068-c4c0-4835-80e6-f1f2b45b43bb" />
 
 Error State
-<img width="946" height="2049" alt="image" src="https://github.com/user-attachments/assets/811ba675-3ffb-4300-b081-c2971ea73e2a" />
+<img width="94" height="204" alt="image" src="https://github.com/user-attachments/assets/811ba675-3ffb-4300-b081-c2971ea73e2a" />
 
 Empty State
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/91fc6eda-ecb1-4bba-ae1d-68f5f3a6a7f4" />
+<img width="108" height="234" alt="image" src="https://github.com/user-attachments/assets/91fc6eda-ecb1-4bba-ae1d-68f5f3a6a7f4" />
 
 Successful Data Render
-<img width="946" height="2049" alt="image" src="https://github.com/user-attachments/assets/591f3931-2376-4f64-8521-2613fe8b1455" />
+<img width="94" height="204" alt="image" src="https://github.com/user-attachments/assets/591f3931-2376-4f64-8521-2613fe8b1455" />
 
 
 
