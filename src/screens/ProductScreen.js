@@ -6,7 +6,8 @@ import {
     ActivityIndicator, 
     StyleSheet, 
     Image,
-    RefreshControl 
+    RefreshControl,
+    ScrollView 
 } from 'react-native';
 import { ProductContext } from '../context/ProductContext';
 
@@ -34,17 +35,39 @@ const ProductScreen = () => {
 
     if (error && !refreshing) {
         return (
-            <View style={styles.centerContainer}>
+            <ScrollView 
+                contentContainerStyle={styles.centerContainer}
+                refreshControl={
+                    <RefreshControl 
+                        refreshing={refreshing} 
+                        onRefresh={onRefresh} 
+                        colors={['#f1c40f']} 
+                        progressBackgroundColor="#2b2b2b"
+                    />
+                }
+            >
                 <Text style={styles.errorText}>Oops! {error}</Text>
-            </View>
+                <Text style={styles.stateText}>Pull down to try again</Text>
+            </ScrollView>
         );
     }
 
     if (!isLoading && products.length === 0) {
         return (
-            <View style={styles.centerContainer}>
+            <ScrollView 
+                contentContainerStyle={styles.centerContainer}
+                refreshControl={
+                    <RefreshControl 
+                        refreshing={refreshing} 
+                        onRefresh={onRefresh} 
+                        colors={['#f1c40f']} 
+                        progressBackgroundColor="#2b2b2b"
+                    />
+                }
+            >
                 <Text style={styles.stateText}>No products available.</Text>
-            </View>
+                <Text style={styles.stateText}>Pull down to refresh</Text>
+            </ScrollView>
         );
     }
 
