@@ -2,18 +2,20 @@
 
 A React Native application demonstrating state management and API integration.
 ## Screenshots
-Loading State
-<img width="108" height="234" alt="image" src="https://github.com/user-attachments/assets/eed7e068-c4c0-4835-80e6-f1f2b45b43bb" />
-
-Error State
-<img width="94" height="204" alt="image" src="https://github.com/user-attachments/assets/811ba675-3ffb-4300-b081-c2971ea73e2a" />
-
-Empty State
-<img width="108" height="234" alt="image" src="https://github.com/user-attachments/assets/91fc6eda-ecb1-4bba-ae1d-68f5f3a6a7f4" />
-
-Successful Data Render
-<img width="94" height="204" alt="image" src="https://github.com/user-attachments/assets/591f3931-2376-4f64-8521-2613fe8b1455" />
-
+<table>
+  <tr>
+    <td align="center"><b>Loading State</b></td>
+    <td align="center"><b>Error State</b></td>
+    <td align="center"><b>Empty State</b></td>
+    <td align="center"><b>Successful Render</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/eed7e068-c4c0-4835-80e6-f1f2b45b43bb" width="100%" alt="Loading"></td>
+    <td><img src="https://github.com/user-attachments/assets/811ba675-3ffb-4300-b081-c2971ea73e2a" width="100%" alt="Error"></td>
+    <td><img src="https://github.com/user-attachments/assets/91fc6eda-ecb1-4bba-ae1d-68f5f3a6a7f4" width="100%" alt="Empty"></td>
+    <td><img src="https://github.com/user-attachments/assets/591f3931-2376-4f64-8521-2613fe8b1455" width="100%" alt="Success"></td>
+  </tr>
+</table>
 
 
 ## Architecture
